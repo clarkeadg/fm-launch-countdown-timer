@@ -15,4 +15,14 @@ body { height: 100%; }
   --color-dark-desaturated-blue: hsl(236, 21%, 26%);
   --color-dark-blue: hsl(235, 16%, 14%);
   --color-very-dark-blue: hsl(234, 17%, 12%);
+  --color-dark-purple: hsl(266, 19%, 22%);
 }
+
+main { 
+  color: var(--color-grayish-blue);
+  background: linear-gradient(var(--color-very-dark-blue), var(--color-dark-purple)); 
+}
+
+.main-inner { background: url(./assets/images/pattern-hills.svg) no-repeat center bottom / 1440px auto; }
+@media (max-width: 640px) { .main-inner { background-position: right -150px bottom; }}
+@media (min-width: 1441px) { .main-inner { background-size: 100% 197px; }}

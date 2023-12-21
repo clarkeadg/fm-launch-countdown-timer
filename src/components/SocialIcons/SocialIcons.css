@@ -1,1 +1,2 @@
-.social-icons { }
+.social-icons a { color: var(--color-grayish-blue); }
+.social-icons a:hover { color: var(--color-soft-red); }

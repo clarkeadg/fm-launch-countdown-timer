@@ -1,1 +1,3 @@
-.coming-soon { background-color: var(--color-white); }
+.coming-soon { background: url(../../assets/images/bg-stars.svg) no-repeat center top / 1440px auto; }
+.coming-soon h1 { color: var(--color-white); }
+
