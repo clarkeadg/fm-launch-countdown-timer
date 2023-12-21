@@ -4,7 +4,7 @@ const Countdown = () => {
 
   return (
     <div className="countdown">
-
+      Countdown
     </div>
   )
 }

@@ -1,12 +1,10 @@
 import Attribution from './components/Attribution'
-import Countdown from './components/Countdown/Countdown'
+import ComingSoon from './components/ComingSoon/ComingSoon'
 
 const App = () => {
   return (
-    <main className="relative min-h-screen pt-[115px] md:pt-[155px] pb-10">
-      <div className="px-2">
-        <Countdown/>
-      </div>
+    <main className="flex w-full justify-center relative min-h-screen pb-10">
+      <ComingSoon/>
       <div className="absolute bottom-0 w-full h-10 flex items-center justify-center">
         <Attribution/>
       </div>
