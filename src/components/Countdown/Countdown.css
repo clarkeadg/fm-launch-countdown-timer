@@ -1,1 +1,2 @@
-.countdown {  }
+.countdown-card { background: var(--color-dark-desaturated-blue); }
+.countdown-number { color: var(--color-soft-red); }
