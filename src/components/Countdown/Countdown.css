@@ -1,2 +1,7 @@
-.countdown-card { background: var(--color-dark-desaturated-blue); }
+.countdown-card { background: var(--color-dark-desaturated-blue); box-shadow: 0 10px 0 0 var(--color-very-dark-blue); }
+@media (max-width: 640px) { .countdown-card { box-shadow: 0 6px 0 0 var(--color-very-dark-blue); }}
+
+
+.countdown-card-top { background: rgba(0,0,0,0.16); }
+.countdown-card-circle { background: var(--color-very-dark-blue); }
 .countdown-number { color: var(--color-soft-red); }
