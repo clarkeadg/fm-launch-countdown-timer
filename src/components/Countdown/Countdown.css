@@ -4,11 +4,12 @@
 .countdown-card { perspective: 500px; }
 
 .countdown-card-inner {   
-  transition: transform 0.8s;
+  transition: transform 0s;
   transform-style: preserve-3d;
 }
 
-.countdown-card-inner.front:hover { transform: rotateX(-180deg); }
+/* .countdown-card-inner.front:hover { transform: rotateX(-180deg); transition: transform 0.8s; } */
+.countdown-card-inner.front.active { transform: rotateX(-180deg); transition: transform 0.5s; }
 
 .countdown-card-front, .countdown-card-back { 
   -webkit-backface-visibility: hidden;
