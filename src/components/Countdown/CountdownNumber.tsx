@@ -12,7 +12,6 @@ const CountdownNumber = (props:ICountdownNumber) => {
   const [flip, setFlip] = useState(false);
 
   useEffect(()=>{
-    console.log("flip", number)
     setActive(!active);
     setTimeout(()=>{
       setFlip(!flip)
