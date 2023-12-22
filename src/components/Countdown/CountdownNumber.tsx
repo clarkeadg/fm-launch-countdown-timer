@@ -15,7 +15,7 @@ const CountdownNumber = (props:ICountdownNumber) => {
     setActive(!active);
     setTimeout(()=>{
       setFlip(!flip)
-    },0)
+    },100)
   }, [number])
 
   return (
