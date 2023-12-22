@@ -15,7 +15,9 @@
   backface-visibility: hidden;
 }
 
-.countdown-card-front { background: var(--color-dark-desaturated-blue); }
+.countdown-card-front-bg { 
+  background: var(--color-dark-desaturated-blue);
+}
 
 .countdown-card-back { transform: rotateX(180deg); }
 .countdown-card-back-bg { background: var(--color-dark-desaturated-blue); }
