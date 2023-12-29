@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import Countdown from '../Countdown/Countdown'
 import SocialIcons from '../SocialIcons/SocialIcons'
 import './ComingSoon.css'
@@ -19,4 +20,4 @@ const ComingSoon = () => {
   )
 }
 
-export default ComingSoon
+export default memo(ComingSoon)

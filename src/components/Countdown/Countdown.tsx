@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import CountdownNumber from './CountdownNumber'
 import { useCountdown } from './useCountdown';
 import './Countdown.css'
@@ -26,4 +27,4 @@ const Countdown = () => {
   )
 }
 
-export default Countdown
+export default memo(Countdown)

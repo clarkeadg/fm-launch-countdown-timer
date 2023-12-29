@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { FaFacebookSquare , FaPinterest, FaInstagram } from 'react-icons/fa'
 import './SocialIcons.css'
 
@@ -17,4 +18,4 @@ const SocialIcons = () => {
   )
 }
 
-export default SocialIcons
+export default memo(SocialIcons)

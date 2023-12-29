@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { memo, useEffect, useState } from "react"
 import CountdownFlip from "./CountdownFlip"
 
 interface ICountdownNumber {
@@ -35,4 +35,4 @@ const CountdownNumber = (props:ICountdownNumber) => {
   )
 }
 
-export default CountdownNumber
+export default memo(CountdownNumber)

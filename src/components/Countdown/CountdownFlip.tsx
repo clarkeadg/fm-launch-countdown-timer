@@ -1,3 +1,4 @@
+import { memo } from 'react'
 
 interface ICountdownFlip {
   active:boolean,
@@ -63,4 +64,4 @@ const CountdownFlip = (props:ICountdownFlip) => {
   )
 }
 
-export default CountdownFlip
+export default memo(CountdownFlip)
