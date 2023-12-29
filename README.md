@@ -8,6 +8,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Built with](#built-with)
+- [Getting Started](#getting-started)
 - [Author](#author)
 
 ## Overview
